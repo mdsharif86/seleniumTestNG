@@ -19,6 +19,6 @@ public class Test_Verify_Farm_And_Garden_Page extends Base{
 		boolean logoIsDisplayed=isDisplayed(By.cssSelector("#logo"));
 		System.out.println(logoIsDisplayed);
 		Assert.assertEquals(logoIsDisplayed, true);
-	}
+	}//main
 	
-}
+}//class
